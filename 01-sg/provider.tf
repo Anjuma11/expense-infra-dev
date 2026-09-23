@@ -8,7 +8,7 @@ terraform {
 
     backend "s3"{
         bucket="remote-expense-dev"
-        key="expense-vpc"
+        key="expense-sg"
         region="us-east-1"
         use_lockfile = true
         encrypt=true
